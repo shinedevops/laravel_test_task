@@ -18,7 +18,7 @@ span.brand-text.font-weight-light {
     background-color: #2089e1;
 }
 .layout-fixed .wrapper .sidebar {
-    padding: 0px 20px;
+    padding: 0px 5px;
 }
 [class*=sidebar-dark-] .sidebar a {
     color: #2089e1;
