@@ -50,10 +50,24 @@
           <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
         </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+      <li class="nav-item dropdown">
+        <a class="nav-link"  data-toggle="dropdown" href="#" role="button">
         <img src="{{ asset('assets/dist/img/user2-160x160.jpg')}}" class="img-circle elevation-2" style="width:30px" alt="User Image">
         </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <div class="image">
+            <img src="{{ asset('assets/dist/img/user2-160x160.jpg')}}" class="img-circle elevation-2" alt="User Image">
+          </div>
+          <span class="dropdown-item dropdown-header">Platform Administrator</span>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            My Account
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            Logout
+          </a>
+        </div>
       </li>
     </ul>
   </nav>

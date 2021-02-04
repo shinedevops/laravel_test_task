@@ -135,3 +135,11 @@ li.breadcrumb-item a.btn {
 .mt-20{
     margin-top: 20px;
 }
+li.nav-item.dropdown.show .image {
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+}
+li.nav-item.dropdown.show .image img.img-circle {
+    height: 100px;
+}
